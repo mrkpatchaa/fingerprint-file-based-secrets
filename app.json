@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mrkpatchaa.fingerprintfilebasedsecrets"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mrkpatchaa.fingerprintfilebasedsecrets"
     },
     "web": {
       "bundler": "metro",
@@ -44,6 +46,12 @@
       "eas": {
         "projectId": "10497834-ff7c-4cef-934a-e6819a29ed39"
       }
+    },
+    "runtimeVersion": {
+      "policy": "fingerprint"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/10497834-ff7c-4cef-934a-e6819a29ed39"
     }
   }
 }
