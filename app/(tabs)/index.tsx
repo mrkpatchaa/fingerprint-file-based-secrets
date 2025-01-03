@@ -31,7 +31,7 @@ export default function HomeScreen() {
               web: 'F12'
             })}
           </ThemedText>{' '}
-          to open developer tools.
+          to open developer tools. Fingerprint should not change
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
